@@ -22,7 +22,17 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "parserOptions": {
+      "bableOptions": {
+        "presets": [
+          [
+            "babel-preset-react-app",
+            false
+          ]
+        ]
+      }
+    }
   },
   "browserslist": {
     "production": [
